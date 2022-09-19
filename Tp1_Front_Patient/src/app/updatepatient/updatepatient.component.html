@@ -1,0 +1,30 @@
+<p>updatepatient works!</p>
+
+
+<div >
+    <label  >Email</label>
+    <input type="text"  [(ngModel)]="patient[0].email"  >
+ 
+  </div>
+<div >
+    <label  >Password</label>
+    <input type="text"  [(ngModel)]="patient[0].password"  >
+ 
+  </div>
+<div >
+    <label  >Nom</label>
+    <input type="text"  [(ngModel)]="patient[0].nom"  >
+ 
+  </div>
+  <div >
+    <label  >prenom</label>
+    <input type="text" [(ngModel)]="patient[0].prenom"   >
+  </div>
+  <div >
+    <label >age</label>
+    <input type="number" [(ngModel)]="patient[0].age" >
+  </div>
+ 
+  <button type="button" class="btn btn-primary" (click)="updatePatient()">Submit</button>
+
+
